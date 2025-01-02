@@ -1,10 +1,22 @@
 import React from 'react'
+import List from './components/List'
+
+
+
 
 const App = () => {
   return (
-    <div>
-      <h1 className='bg-red-500 text-5xl'>This is sajib khan</h1>
-    </div>
+   <>
+
+   <button>Book Now</button>
+   
+   
+   
+                           
+   
+   
+   
+   </>
   )
 }
 
