@@ -1,20 +1,10 @@
 import React from 'react'
-import List from './components/List'
-
-
-
+import Navber from './layouts/Navber'
 
 const App = () => {
   return (
    <>
-
-   <button>Book Now</button>
-   
-   
-   
-                           
-   
-   
+   <Navber/>
    
    </>
   )
