@@ -2,7 +2,7 @@ import React from 'react'
 
 const List = ({liText}) => {
   return (
-    <li className='text-base text-[#616161] list-none font-normal font-pop'>{liText}</li>
+    <li className='text-base text-third list-none font-normal font-pop'>{liText}</li>
   )
 }
 
