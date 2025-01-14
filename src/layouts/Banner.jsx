@@ -7,6 +7,7 @@ import BannerOne from '../assets/bannerOne.png'
 import BannerTwo from '../assets/bannerTwo.png'
 import InputCard from '../components/InputCard'
 import { CiSearch } from 'react-icons/ci'
+import { IoLocationOutline } from "react-icons/io5";
 
 const Banner = () => {
   return (
