@@ -6,6 +6,7 @@ import About from '../layouts/About'
 import Travel from '../layouts/Travel'
 import Pomotion from '../layouts/Pomotion'
 import MonyPart from '../layouts/MonyPart'
+import Footer from '../layouts/Footer'
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
     <Travel/>
     <Pomotion/>
     <MonyPart/>
+    <Footer/>
    </>
   )
 }
