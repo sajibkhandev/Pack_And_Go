@@ -11,10 +11,10 @@ const Populaer = () => {
   return (
    <section className='py-[150px]'>
     <Container>
-    <CommonHeading className='text-center' text='Popular Destination'/>
-    <CommonPara className='text-center mx-auto w-[614px] pt-5' text='We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.'/>
+    <CommonHeading className='text-center text-3xl md:text-5xl leading-[50px] md:leading-[70px]' text='Popular Destination'/>
+    <CommonPara className='text-center mx-auto md:w-[614px] pt-5' text='We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.'/>
     </Container>
-   <Flex className='gap-x-[30px] justify-center pt-12'>
+   <Flex className='gap-x-[30px] justify-center pt-12 !block  mx-2'>
 
     
 

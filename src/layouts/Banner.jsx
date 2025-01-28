@@ -23,12 +23,12 @@ const Banner = () => {
           <Button className='mb-10 py-2.5 px-10' text='Discover Now'/>
 
           <div className='relative md:w-[825px] bg-white rounded-[10px]'>
-            <Flex  className='p-[10px] md:py-9 md:px-6 '>
+            <Flex  className='p-[10px] md:py-9 md:px-6 md:gap-x-7'>
               <InputCard/>
                <InputCard/>
                <InputCard/>
               </Flex>
-              <button className='absolute top-[136%] py-3 px-[138px] -translate-y-1/2 md:right-6 p-[30px] bg-secondary rounded-[10px]'><CiSearch  className='text-white text-xl'/></button>
+              <button className='absolute top-[136%] md:top-1/2  py-3 px-[138px] md:p-5 -translate-y-1/2 md:right-6 p-[30px] bg-secondary rounded-[10px]'><CiSearch  className='text-white text-xl'/></button>
             
 
           </div>

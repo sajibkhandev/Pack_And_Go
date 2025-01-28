@@ -7,8 +7,8 @@ import { FaStar } from 'react-icons/fa'
 
 const PopularCard = ({image,title,text,price}) => {
   return (
-    <div className='w-[370px] bg-white hover:shadow-xl duration-500 p-5 rounded-[14px]'>
-        <div className='w-[329px] h-[203px] rounded-[14px]'>
+    <div className='w-[300px] md:w-[370px]  bg-white hover:shadow-xl duration-500 p-5 rounded-[14px] my-10 md:my-0'>
+        <div className='w-[250px] md:w-[329px] h-[203px] rounded-[14px]'>
         <Image className='w-full rounded-[14px]' src={image}/>
         </div>
         
