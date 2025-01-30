@@ -11,12 +11,12 @@ import Icon1 from '../assets/aboutIcon1.png'
 const About = () => {
   return (
     
-    <section className='py-[150px] bg-[#1e1e1e0d]'>
+    <section className='py-[150px] bg-[#1e1e1e0d] px-3 md:px-0'>
         <Container>
-            <Flex>
-                <div className='w-1/2'>
+            <Flex className='!block md:!flex'>
+                <div className='md:w-1/2'>
                 <CommonHeading text='Go Travel, Discover Remember Us' />
-                <CommonPara className='w-[516px]' text='We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.' />
+                <CommonPara className='md:w-[516px]' text='We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.' />
                 
                     <Flex className='gap-x-2.5 py-2.5 '>
                     <IoMdCheckmark  className='text-secondary pt-1 text-2xl'/>
@@ -35,8 +35,8 @@ const About = () => {
                 
                 <Button text='Discover Place' className='mt-[30px]'/>
                 </div>
-                <div className='w-1/2'>
-                <Flex className='flex-wrap gap-[30px]'>
+                <div className='md:w-1/2'>
+                <Flex className='flex-wrap gap-[30px] my-10 md:my-0'>
                 <AboutCard src={Icon1} cardText="Satisfied Clients" cardTitle='500K+'/>
                 <AboutCard src={Icon1} cardText="Satisfied Clients" cardTitle='500K+'/>
                 <AboutCard src={Icon1} cardText="Satisfied Clients" cardTitle='500K+'/>

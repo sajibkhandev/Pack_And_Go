@@ -14,10 +14,7 @@ const Populaer = () => {
     <CommonHeading className='text-center text-3xl md:text-5xl leading-[50px] md:leading-[70px]' text='Popular Destination'/>
     <CommonPara className='text-center mx-auto md:w-[614px] pt-5' text='We are self-service data analytics software that lets you create visually appealing data visualizations and insightful dashboards in minutes.'/>
     </Container>
-   <Flex className='gap-x-[30px] justify-center pt-12 !block  mx-2'>
-
-    
-
+   <Flex className='gap-x-[30px] justify-center pt-12 md:!flex !block   mx-2'>
 
    <PopularCard image={ImageOne} title="Venice, Italy" text='Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam' price="$100"/>
     <PopularCard image={ImageOne} title="Paris, France" text='Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua minim veniam' price="$150"/>
